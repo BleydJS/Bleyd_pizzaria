@@ -1,5 +1,5 @@
     <footer>
-        <p>rodapé</p>
+        <p>Bleyd Pizzaria &copy; 2023</p>
     </footer>
 
      <!-- Bootstrap js-->

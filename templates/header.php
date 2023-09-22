@@ -13,5 +13,19 @@
 </head>
 <body>
     <header>
-        <p>cabeçalho</p>
+        <nav class="navbar navbar-expand-lg">
+            <a href="index.php" class="navbar-brand">
+                <img src="img/pizza.svg" alt="pizzaria do bleyd" id="brand-logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="index.php" class="nav-link">Peça sua pizza</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
+    <div class="alert alert-success">
+        <p>Pedido feito com sucesso!</p>
+    </div>
