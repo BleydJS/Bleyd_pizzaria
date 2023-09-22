@@ -1,3 +1,21 @@
+<?php 
+    include("process/conn.php");
+    
+    $msg = "";
+
+    if(isset($_SESSION["msg"])) {     //se a variável de msg na sessão tem algo dentro..
+
+        $msg= $_SESSION["msg"];          
+        $status = $_SESSION["status"];
+
+        $_SESSION["msg"] = "";       //para limpar depois..agora segue para a msg logo a baixo e faz o if
+        $_SESSION["status"] = "";
+
+    }
+    
+    ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +44,12 @@
             </div>
         </nav>
     </header>
-    <div class="alert alert-success">
-        <p>Pedido feito com sucesso!</p>
+
+    <?php if($msg != ""): ?> 
+    <div class="alert alert-<?= $status ?>">
+        <p><?=$msg ?></p>
     </div>
+
+    <?php endif; ?>
+
+    
