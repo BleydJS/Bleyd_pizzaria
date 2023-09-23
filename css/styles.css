@@ -46,7 +46,7 @@ html, body {
     margin-bottom: 100px;
     padding: 50px 0;
     text-align: center;
-    min-height: 50%;
+    min-height: 62.3%;
 }
 
 
@@ -85,7 +85,7 @@ html, body {
     font-size: 18px;
 }
 
-.alert.alert-sucess {
+.alert.alert-success {
     border: 2px solid #155724;
 }
 
@@ -98,8 +98,47 @@ html, body {
 }
 
 
-/*FOOTER*/
 
+
+/*DASHBOARD*/
+.delete-btn, .update-btn {
+    border:none;
+    background-color: transparent;
+}
+
+.delete-btn {
+    padding-top: 10px;
+}
+
+.delete-btn i {
+    color: #721c24;
+    font-size: 20px;
+}
+
+.update-btn {
+    margin-left: 10px;
+}
+
+.update-btn i {
+    color: #004085;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.status-input {
+    width: 65%;
+}
+
+.table ul {
+    text-align: left;
+}
+
+
+
+/*FOOTER*/
 footer {
     position: relative;
     width: 100%;
