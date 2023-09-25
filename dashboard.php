@@ -1,5 +1,6 @@
 <?php
         include_once ("templates/header.php");
+        include_once ("process/orders.php");
     ?>
 
     <div id="main-container">
@@ -21,17 +22,24 @@
                             </tr>
                         </thead>
                         <tbody> <!--corpo da tabela-->
+                           <?php foreach($pizzas as $pizza): ?>
                             <tr>  <!--table row (linha)-->
-                                <td>#1</td>  <!--table data-->
-                                <td>Cheddar</td>
-                                <td>Catupiry</td>
-                                <td>4 Queijos</td>
+                                <td><?=$pizza["id"] ?></td>  <!--table data-->
+                                <td><?=$pizza["borda"] ?></td>
+                                <td><?=$pizza["massa"] ?></td>
                                 <td>
-                                    <form action="process/order.php" method="POST"class="form-group update-form">
+                                    <ul>
+                                        <?php foreach($pizza["sabores"] as $sabor): ?>
+                                            <li><?= $sabor ;?></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                    <form action="process/orders.php" method="POST"class="form-group update-form">
                                         <input type="hidden" name="type" value="update">
-                                        <input type="hidden" name="id" value="1">
+                                        <input type="hidden" name="id" value=<?= $pizza["id"] ?>>
                                         <select name="status" class="form-control status-input">
-                                            <option value="">Entrega</option>
+                                            <?php foreach($status as $s): ?>
+                                                <option value="<?= $s["id"] ?>" <?php echo ($s["id"] == $pizza["status"]) ? "selected" : "";?> ><?=$s["tipo"]?></option>
+                                            <?php endforeach; ?>
                                         </select>
                                         <button type="submit" class="update-btn">
                                             <i class="fas fa-sync-alt"></i>
@@ -39,15 +47,18 @@
                                     </form>
                                 </td>
                                 <td>
-                                    <form action="process/order.php" method="POST">
+                                    <form action="process/orders.php" method="POST">
                                         <input type="hidden" name="type" value="delete">
-                                        <input type="hidden" name="id" value="1">
+                                        <input type="hidden" name="id" value= "<?= $pizza["id"]?>" >
                                         <button type="submit" class="delete-btn">
                                             <i class="fas fa-times"></i>
                                         </button>
                                     </form>
                                 </td>
                             </tr>
+                            <?php endforeach; ?>
+
+
                         </tbody>
                     </table>
 

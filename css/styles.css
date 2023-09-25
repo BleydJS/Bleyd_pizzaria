@@ -6,6 +6,7 @@ html, body {
 
 #brand-logo {
     width: 50px;
+    margin-left: 15px;
 }
 
 .navbar.navbar-expand-lg {
@@ -43,7 +44,7 @@ html, body {
 }
 
 #main-container {
-    margin-bottom: 100px;
+    margin-bottom: 175px;
     padding: 50px 0;
     text-align: center;
     min-height: 62.3%;
@@ -142,7 +143,7 @@ html, body {
 footer {
     position: relative;
     width: 100%;
-    height: 175px;
+    height: 82px;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -150,3 +151,54 @@ footer {
     justify-content: center;
     font-weight: bold;
 }
+
+footer p {
+    margin-bottom: 0;
+}
+/*RESPONSIVO*/
+
+@media(max-width: 425px) {
+
+    #main-banner {
+      background-position-y: 0;
+    }
+  
+    #main-banner h1 {
+      padding: 10px;
+    }
+  
+    #main-container {
+      margin-bottom: 0;
+    }
+  
+    #main-container .container {
+      padding: 10px;
+    }
+  
+    .form-group .btn.btn-primary {
+      width: 100%;
+      height: 50px;
+      margin-top: 15px;
+      text-transform: uppercase;
+    }
+  
+    .table-container {
+      padding: 0;
+    }
+  
+    .table td, .table th {
+      padding: .5rem;
+    }
+  
+    th span {
+      display: none;
+    }
+  
+    .table thead th:nth-child(5),
+    .table thead th:nth-child(6),
+    .table tbody td:nth-child(5),
+    .table tbody td:nth-child(6) {
+      display: none;
+    }
+  
+  }

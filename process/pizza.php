@@ -9,17 +9,17 @@
         $bordasQuery = $conn->query("SELECT * FROM bordas;");
         //aqui eu crio uma variavel de $bordasQuery, faço uma conexão e ligo ao "SELECT * FROM bordas;
 
-        $bordas = $bordasQuery->fetchall();
+        $bordas = $bordasQuery->fetchAll();
         //agora que eu ja tenho o conteudo dentro de $bordasQuery. agora crio uma variavel para receber ela e executo com o fetchall();
         //o que acontece que ele vai transferir os dados que retornam dessa query para um array, que no caso vai ser o $bordas.
         //por meio desse array consigo colocar os dados la no front
 
         $massasQuery = $conn->query("SELECT * FROM massas;");
-        $massas = $massasQuery->fetchall();
+        $massas = $massasQuery->fetchAll();
 
 
         $saboresQuery = $conn->query("SELECT * FROM sabores;");
-        $sabores = $saboresQuery->fetchall();
+        $sabores = $saboresQuery->fetchAll();
 
     
     //criação do pedido
