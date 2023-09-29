@@ -14,9 +14,9 @@ git clone https://github.com/BleydJS/Bleyd_pizzaria
 ### TELA CLIENTE
 ![pizza1](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/bb1b5a9b-0b6e-422e-b75f-5546e7373925)
 
-### Fazer pedido
+### DASHBOARD
 
-![image](https://user-images.githubusercontent.com/120134614/206717505-8ea91782-dbd4-4225-bb4a-5aac46489105.png)
+![dashboard](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/e883d5cb-b93d-4226-81b2-14f5a2f5ac1c)
 
 ## Carrinho Admin
 ![image](https://user-images.githubusercontent.com/120134614/206718646-a5b6643e-fcba-42ba-b823-c2b9d0fdeb8d.png)
