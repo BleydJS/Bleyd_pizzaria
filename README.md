@@ -4,15 +4,12 @@
 + abra o cmd na pasta desejada
 
 + use o comando no cmd: 
-git clone https://github.com/Dev-Leonardo-Wolff/PizzariaPHP
+git clone https://github.com/BleydJS/Bleyd_pizzaria
 
-+ dê import no banco de dados mysql
++ dê import no banco de dados mysql que esta dentro da pasta <banco>
 
-### login admin 
++ dentro da pasta <banco> tambem contem o diagrama ER caso queira dar uma olhada.
 
-admin@gmail.com
-
-12345678
 ## algumas prints do projeto
 ### Home
 ![image](https://user-images.githubusercontent.com/120134614/206717215-b7fabcba-a6e6-4f43-aeb3-7a39be8e1e1c.png)
