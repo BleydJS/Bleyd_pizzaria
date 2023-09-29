@@ -8,9 +8,9 @@ git clone https://github.com/BleydJS/Bleyd_pizzaria
 
 + dê import no banco de dados mysql que esta dentro da pasta <banco>
 
-+ dentro da pasta <banco> tambem contem o diagrama ER caso queira dar uma olhada.
++ dentro da pasta <banco> também contem o diagrama ER caso queira dar uma olhada.
 
-## algumas prints do projeto
+## alguns prints do projeto
 ### Home
 ![image](https://user-images.githubusercontent.com/120134614/206717215-b7fabcba-a6e6-4f43-aeb3-7a39be8e1e1c.png)
 
