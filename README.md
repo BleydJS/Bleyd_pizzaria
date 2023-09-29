@@ -11,7 +11,7 @@ git clone https://github.com/BleydJS/Bleyd_pizzaria
 + dentro da pasta <banco> também contem o diagrama ER caso queira dar uma olhada.
 
 ## alguns prints do projeto
-### Home
+### TELA CLIENTE
 ![pizza1](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/bb1b5a9b-0b6e-422e-b75f-5546e7373925)
 
 ### Fazer pedido
