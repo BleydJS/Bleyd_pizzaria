@@ -12,7 +12,7 @@ git clone https://github.com/BleydJS/Bleyd_pizzaria
 
 ## alguns prints do projeto
 ### Home
-![image](https://user-images.githubusercontent.com/120134614/206717215-b7fabcba-a6e6-4f43-aeb3-7a39be8e1e1c.png)
+![pizza1](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/bb1b5a9b-0b6e-422e-b75f-5546e7373925)
 
 ### Fazer pedido
 
