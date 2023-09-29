@@ -21,5 +21,5 @@ git clone https://github.com/BleydJS/Bleyd_pizzaria
 ## BANCO
 ![banco](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/fa84b93b-9301-42a7-b259-fed5f0f31c7c)
 
-## Carrinho para o cliente 
-![image](https://user-images.githubusercontent.com/120134614/206717717-b2e3ce59-bf9e-4e61-b176-8a7d2b4002e4.png)
+## DIAGRAMA ER
+![diagrama](https://github.com/BleydJS/Bleyd_pizzaria/assets/122636482/595dc3bf-07ef-432c-81dc-fc1747e4b084)
